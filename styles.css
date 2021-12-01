@@ -1,0 +1,14 @@
+
+body{
+  min-height: 100%;
+  background-color: darkslategrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#grid{
+  background-color: honeydew;
+  width: 480px;
+  height: 480px;
+}
