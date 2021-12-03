@@ -9,6 +9,14 @@ body{
 
 #grid{
   background-color: honeydew;
-  width: 480px;
-  height: 480px;
+  width: 490px;
+  height: 490px;
+  display: grid;
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+  padding: 5px;
+}
+
+.square{
+  background-color: crimson;
 }
