@@ -7,8 +7,8 @@ function gridArray(squareNum){
   for (c = 0; c < (squareNum ** 2); c++) {
     let cell = document.createElement("div");
     container.appendChild(cell).className = "square";
-  }
-}
+  };
+};
 
 gridArray(32);
 

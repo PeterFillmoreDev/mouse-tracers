@@ -2,12 +2,22 @@
 body{
   min-height: 100%;
   background-color: darkslategrey;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.controls{
+  background-color: honeydew;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  justify-self: center;
+  align-self: center;
 }
 
 #grid{
+  justify-self: center;
   background-color: honeydew;
   width: 490px;
   height: 490px;
