@@ -15,6 +15,8 @@ body{
   justify-self: center;
   align-self: center;
   padding: 5px;
+  border: honeydew 1px solid;
+  border-radius: 6px;
 }
 
 #grid{
@@ -26,8 +28,21 @@ body{
   grid-template-rows: repeat(var(--grid-rows), 1fr);
   grid-template-columns: repeat(var(--grid-cols), 1fr);
   padding: 5px;
+  border: honeydew 1px solid;
+  border-radius: 6px;
 }
 
 .square{
   background-color: crimson;
+}
+
+#title{
+  color: crimson;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#resCountDisplay{
+  color: crimson;
 }
